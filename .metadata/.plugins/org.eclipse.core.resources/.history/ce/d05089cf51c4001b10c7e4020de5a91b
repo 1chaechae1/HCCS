@@ -1,0 +1,30 @@
+@charset "EUC-KR";
+
+.content_view {
+    padding: 10px 5px;
+    position: relative;
+}
+.content_header h2 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 500;
+    color: #333;
+    letter-spacing: -0.060em;
+}
+.service_part .search_service {
+	padding:20px;
+}
+.search_service:first-child {
+	margin-top:0px;
+}
+.search_service{
+	position: relative;
+	padding-left:120px;
+}
+dt, dd, li {
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+}

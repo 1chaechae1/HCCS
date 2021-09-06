@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<link rel="stylesheet" href="makeuistyled.css">
+</head>
+<body>
+	<div class="service_area">
+		<a href="http://mail.naver.com" class="mh_mail">
+			<span class="mh_icon">
+				<img src="mail.png" alt="mail">
+			</span>
+		</a>
+				
+		<a href="https://www.naver.com/more.html" class="mh_apps">
+			<span class="mh_icon">
+				<img src="apps.png" alt="apps">
+			</span>
+		</a>
+				
+		<div class="main_h_menu">
+			<a href="https://nid.naver.com/nidlogin.login" class="mh_login">로그인</a>
+		</div>	
+	</div>
+		
+	<div class="content">
+		<div class="logo">
+			<a href="http://www.naver.com"><img src="naver_lg.jpg" alt="naver_logo"></a>
+		</div>
+		<div class="search_area">
+			<form>
+				<div class="green_window" style="border-color: #36d169;">
+					<input class="input_text" name="input" type="text" title="검색어를 입력해 주세요." maxlength="255">
+				</div>
+				<button class="btn_submit" type="submit" title="검색" tabindex="3" style="background-color: #36d169">
+					<span class="blind">검색</span>
+					<span class="icon_search_submit"><img src="zoom.png" alt="search"></span>
+				</button>
+			</form>
+			<a href="#" class="btn_images">
+				<span class = "blind">이미지 검색기</span>
+				<span class = "icon_images"><img src="image.png" alt="search_images"></span>
+			</a>
+		</div>
+		
+		<div class="interesting_list" style="width: 573px; height: 224px;">
+			<a class="easy_list" title="카페" href="https://section.cafe.naver.com/ca-fe/">
+				<div class="el_icon">
+					<img src="navercafe.png" alt="naver_cafe_logo">
+				</div>
+				<div class="el_icon_title">
+					<span>카페</span>
+				</div>
+			</a>
+			<a class="easy_list" title="블로그" href="https://section.blog.naver.com/BlogHome.naver?directoryNo=0&currentPage=1&groupId=0">
+				<div class="el_icon">
+					<img src="naverblog.png" alt="naver_blog_logo">
+				</div>
+				<div class="el_icon_title">
+					<span>블로그</span>
+				</div>
+			</a>
+			<a class="easy_list" title="지식iN" href="https://kin.naver.com/">
+				<div class="el_icon">
+					<img src="naverknowledgeiN.png" alt="naver_knowledgeiN_logo">
+				</div>
+				<div class="el_icon_title">
+					<span>지식iN</span>
+				</div>
+			</a>
+			<a class="easy_list" title="사전" href="https://dict.naver.com/">
+				<div class="el_icon">
+					<img src="naverdictionary.png" alt="naver_dictionary_logo">
+				</div>
+				<div class="el_icon_title">
+					<span>사전</span>
+				</div>
+			</a>
+			<a class="easy_list" title="지도" href="https://map.naver.com/v5/?c=14105041.7308876,4551568.9098168,15,0,0,0,dh">
+				<div class="el_icon">
+					<img src="navermap.png" alt="naver_map_logo">
+				</div>
+				<div class="el_icon_title">
+					<span>지도</span>
+				</div>
+			</a>
+			<a class="easy_list" title="부동산" href="https://land.naver.com/">
+				<div class="el_icon">
+					<img src="naverland.png" alt="naver_land_logo">
+				</div>
+				<div class="el_icon_title">
+					<span>부동산</span>
+				</div>
+			</a>
+			<a class="easy_list" title="웹툰" href="https://comic.naver.com/index">
+				<div class="el_icon">
+					<img src="naverwebtoon.png" alt="naver_webtoon_logo">
+				</div>
+				<div class="el_icon_title">
+					<span>웹툰</span>
+				</div>
+			</a>
+			<a class="easy_list" title="파파고" href="https://papago.naver.com/">
+				<div class="el_icon">
+					<img src="naverpapago.png" alt="naver_papago_logo">
+				</div>
+				<div class="el_icon_title">
+					<span>파파고</span>
+				</div>
+			</a>
+			<a class="easy_list" title="캘린더" href="https://calendar.naver.com/main#%7B%22sSection%22%3A%22scheduleMain%22%2C%22oParameter%22%3A%7B%22sViewType%22%3A%22month%22%2C%22sDate%22%3A%222021-09-04%22%7D%7D">
+				<div class="el_icon">
+					<img src="navercalendar.png" alt="naver_calendar_logo">
+				</div>
+				<div class="el_icon_title">
+					<span>캘린더</span>
+				</div>
+			</a>
+			<a class="easy_list" title="추가" href="/">
+				<div class="el_icon">
+					<img src="plus.png" alt="plus">
+				</div>
+				<div class="el_icon_title">
+					<span>추가</span>
+				</div>
+			</a>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,94 @@
+@charset "EUC-KR";
+
+header div{
+	padding:10px;
+}
+
+nav{margin-top:0px; margin-bottom: 0px;padding:10px;}
+
+nav ul{
+	list-style: none;
+	border-top : 4px solid red;
+	border-bottom : 4px solid red;
+	text-align:center;
+	background : yellow;
+}
+
+nav ul li{
+	display: inline;
+	letter-spacing: 12px;
+	margin-left: 50px;
+	border : 1;
+}
+
+section iframe{
+	margin: 50px;
+	float: left;
+}
+
+div{
+	float:right;
+}
+
+
+footer{
+	clear: both;
+	background: gray;
+	text-align: center;
+	padding: 15px 10px;
+}
+
+.section input[id*="slide"]{
+	display:none;
+}
+.section .slidewrap {
+	max-width  : 1500px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.section .slidelist{
+	white-space:nowrap;
+	font-size:0;
+}
+.section .slidelist > li{
+	display:inline-block;
+	vertical-align:middle;
+	width:100%;
+	transition:all .5s;
+}
+.section .slidelist >li > a{
+	
+	display:block;
+	position:relative;
+}
+
+.section .slidelist >li > a img{
+	width:100%;
+}
+
+.section .slidelist label{
+	position:absolute;
+	z-index : 10;
+	top : 50%;
+	transform:translateY(-50%);
+	padding:50px;
+	cursor:pointer;
+}
+.section .slidelist .left{
+	left:20px;
+	background:url('coffee.gif') center center / 100% no-repeat;
+}
+.slidelist .right{
+	right:20px;
+	background:url('coffee.gif') center center / 100% no-repeat;
+}
+.section [id="slide01"]:checked ~ .slidewrp .slidelist > li {transform:translateX(0%)};
+.section [id="slide02"]:checked ~ .slidewrp .slidelist > li {transform:translateX(-100%)};
+.section [id="slide03"]:checked ~ .slidewrp .slidelist > li {transform:translateX(-200%)};
+
+
+
+
+
+
+

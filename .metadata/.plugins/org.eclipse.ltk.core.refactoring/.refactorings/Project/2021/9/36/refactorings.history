@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;naver_logo.jpg&apos; to &apos;Project&apos;" description="Move &apos;naver_logo.jpg&apos; to &apos;Project&apos;" destination="/Project" element1="/hci0904/WebContent/naver_logo.jpg" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1630741252243" updateReferences="true"/>
+</session>

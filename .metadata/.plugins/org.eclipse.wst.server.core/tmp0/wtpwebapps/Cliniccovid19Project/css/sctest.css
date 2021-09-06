@@ -1,0 +1,23 @@
+@charset "EUC-KR";
+
+
+ul, ol, dl {
+   padding:0;
+    list-style: none;
+}
+
+a {
+	text-decoration:none;
+}
+
+.tab_wrap ul.tab {
+	display: block;
+    overflow: hidden;
+    
+}
+
+.tab_wrap ul.tab .tab_list {
+    float: left; 
+    width: 50% !important;
+    /* margin: 1px 0; */
+}

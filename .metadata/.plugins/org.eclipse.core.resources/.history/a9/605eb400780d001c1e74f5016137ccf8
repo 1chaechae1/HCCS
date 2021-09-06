@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<link rel="stylesheet" href="makeuiheaderstyled.css">
+</head>
+<body>
+	<div class="service_area">
+			<div class="empty_h">
+			</div>
+			<div class="main_h">
+				<div class="main_h_menu">
+					<a href="#" class="mh_ml">
+						<span class="mh_icon">
+							<img src="mail.png">
+						</span>
+					</a>
+				</div>
+				<div class="main_h_menu">
+					<a href="#" class="mh_ml">
+						<span class="mh_icon">
+							<img src="apps.png">
+						</span>
+					</a>
+				</div>
+				<div class="main_h_menu">
+					<a href="#" class="mh_login">로그인</a>
+				</div>
+			</div>
+		</div>
+</body>
+</html>

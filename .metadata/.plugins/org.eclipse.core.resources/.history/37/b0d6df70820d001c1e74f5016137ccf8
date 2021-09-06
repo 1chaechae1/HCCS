@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<link rel="stylesheet" href="makeuistyled.css">
+</head>
+<body>
+	<div class="service_area">
+		<a href="#" class="mh_mail">
+			<span class="mh_icon">
+				<img src="mail.png" alt="mail">
+			</span>
+		</a>
+				
+		<a href="#" class="mh_apps">
+			<span class="mh_icon">
+				<img src="apps.png" alt="apps">
+			</span>
+		</a>
+				
+		<div class="main_h_menu">
+			<a href="#" class="mh_login">로그인</a>
+		</div>	
+	</div>
+		
+	<div class="content">
+		<div class="logo">
+			<img src="naver_lg.jpg" alt="naver_logo">
+		</div>
+		<div class="search_area">
+			<form>
+				<div class="green_window" style="border-color: #36d169;">
+					<input class="input_text" name="input" type="text" title="검색어를 입력해 주세요." maxlength="255">
+				</div>
+				<button class="btn_submit" type="submit" title="검색" tabindex="3" style="background-color: #36d169">
+					<span class="blind">검색</span>
+					<span class="icon_search_submit"><img src="zoom.png" alt="search"></span>
+				</button>
+			</form>
+			<a href="#" class="btn_images">
+				<span class = "blind">이미지 검색기</span>
+				<span class = "icon_images"><img src="image.png" alt="search_images"></span>
+			</a>
+		</div>
+		
+		<div class="interesting_list" style="--column-count: 5; --row--count: 2;">
+			<a class="easy_list" title="카페" href="/">
+				<div class="el_icon">
+					<img src="navercafe.png" alt="naver_cafe_logo">
+				</div>
+				<div class="el_icon_desc">
+					<span>네이버 카페</span>
+				</div>
+			</a>
+		</div>
+	</div>
+</body>
+</html>

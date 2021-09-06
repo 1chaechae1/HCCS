@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+
+<link href="main_base.css" rel="stylesheet">
+
+</head>
+<body>
+	
+
+	<div class = "content" id="content">
+		<div class = "content_header">
+			<h2 class = "tit_1">가까운 진료소 찾기</h2>
+		</div>
+	<div class = "content_view">
+
+		<form name=frm method="POST" action="">
+		<div class = "sevice_part">
+			<h3 class = "tit_2">진료소 조회</h3>
+			<div class = "board_list">
+			<table>
+				<thead>
+					<tr>
+						<th colspan="9">
+							<label for = "searchHopeArea1">진료지역</label>
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							<div>
+								<!-- 진료지역 시/도 선택 -->
+								<select id="searchHopeArea1" name="searchHopeArea1" title="진료지역 시/도 선택" onChange="Clinic1_change(this.value,searchHopeArea2)"size="10" class>
+									<option value="" selected="selected">전체</option>
+									<option value="1">서울특별시</option>
+									<option value="2">부산광역시</option>
+									<option value="3">대구광역시</option>
+									<option value="4">인천광역시</option>
+									<option value="5">광주광역시</option>
+									<option value="6">대전광역시</option>
+									<option value="7">울산광역시</option>
+									<option value="8">세종특별자치시</option>
+									<option value="9">경기도</option>
+									<option value="10">강원도</option>
+									<option value="11">충청북도</option>
+									<option value="12">충청남도</option>
+									<option value="13">전라북도</option>
+									<option value="14">전라남도</option>
+									<option value="15">경상북도</option>
+									<option value="16">경상남도</option>
+									<option value="17">제주특별자치도</option>
+								</select>
+							</div>
+						</td>
+						<td>
+							<div>
+								<select id="searchHopeArea2" name="searchHopeArea2" title="진료지역 시/군/구 선택" size="10" class>
+									<option value="" selected="selected">전체</option>
+								</select>
+							</div>
+						</td>
+						<td>
+							<div>
+								<select id="searchHopeArea3" name="searchHopeArea3" title="진료지역 읍/면/동 선택" size="10" class>
+									<option value="" selected="selected">전체</option>
+								</select>
+							</div>
+						</td>
+					</tr>		
+				</tbody>
+			</table>
+			</div>
+		</div>
+		
+		<div class = "search_service">
+			<dl class = "form_elem">
+				<dt class = "label">
+					<label for = "searchClinicBgnde">진료운영 기간</label>
+				</dt>
+				<dd data-module="datepicker">
+					<span class = "datepicker">
+						<label class="haze" for="searchClinicBgnde">시작날짜</label>
+						<span class = "input_text">
+							<input type="text" id="searchClinicBgnde" name="searchClinicBgnde" value="YYYY-MM-DD" title="진료기간 시작날짜" maxlength="10" readonly="readonly" class>
+						</span>
+						<button type="button" class="date_select" onclick="openCalendar(document.getElementById('searchClinicBgnde')); return false;">
+							<span>시작날짜 선택</span>
+						</button>
+					</span>
+					<span class="symbol">~</span>
+					<span class = "datepicker">
+						<label for="searchClinicEndde" class="haze">종료날짜</label>
+					<span class = "input_text">
+						<input type="text" id="searchClinicEndde" name="searchClinicEndde" value="YYYY-MM-DD" title="진료기간 종료날짜" maxlength="10" readonly="readonly" class>
+						<script></script>
+					</span>
+					<button type="button" class="date_select" onclick="openCalendar(document.getElementById('searchClinicEndde')); return false;">
+						<span>종료날짜 선택</span>
+					</button>
+					</span>
+				</dd>
+			</dl>
+			<dl class = "form_elem">
+				<dt class = "label">
+					<label for = "searchClinic">운영정보 선택</label>
+				</dt>
+				<dd>
+					<input type = "checkbox" name="itemcode" id="Clinic_search_itemcode_C1" value="C1">
+						<label for="Clinic_search_itemcode_C1">평일</label>
+					<input type = "checkbox" name="itemcode" id="Clinic_search_itemcode_C2" value="C2">
+						<label for="Clinic_search_itemcode_C2">주말</label>
+					<input type = "checkbox" name="itemcode" id="Clinic_search_itemcode_C3" value="C3">
+						<label for="Clinic_search_itemcode_C3">공휴일</label>
+				</dd>
+			</dl>
+			<dl class = "form_elem">
+				<dt class = "label">
+					<label for = "searchKeyword">진료소명</label>
+				</dt>
+				<dd class = "input_1">
+					<span class = "input_text">
+						<input type = "text" id = "searchKeyword" name = "searchKeyword" value="" maxlength = "50" title = "진료소명" class>
+					</span>
+				</dd>
+			</dl>
+			
+			
+			
+			<div class = "btn_sec search_service_btn">
+				<input type = "button" class = "btn grey btn_blue" id = "btnSearch" value="검색">
+				<input type = "button" class = "btn white_small btn_gray" id = "btnReset" value="초기화">
+			</div>
+		</div>
+		</form>
+		
+		<div class = "tab_wrap">
+			<ul class = "tab">
+				<li class = "tab_list on_1">
+					<a href="#" class = "tab_link" onclick = "fnSetListType('list_1');">
+						<span>선별진료소</span>
+					</a>
+				</li>
+				<li class = "tab_list on_2">
+					<a href="#" class = "tab_link" onclick = "fnSetListType('list_2');">
+						<span>임시선별진료소</span>
+					</a>
+				</li>
+			</ul>
+		</div>	
+		
+		<div class = "search_form">
+			<!-- 검색 결과 수 카운트 -->
+			<div class = "search_result">
+				<p>[전체]<em>결과 수</em>건</p>
+			</div>
+		</div>
+		<div class = "board_list2">
+			<ul class = "list_wrap">
+				<li><input type = "hidden" id = "RegistNo" name ="RegistNo"> </li>
+			</ul>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		</div>
+	
+	</div>
+
+</body>
+</html>

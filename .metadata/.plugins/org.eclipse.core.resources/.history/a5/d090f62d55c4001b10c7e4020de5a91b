@@ -1,0 +1,61 @@
+@charset "EUC-KR";
+
+.content_view {
+    padding: 10px 5px;
+    position: relative;
+}
+.content_header h2 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 500;
+    color: #333;
+    letter-spacing: -0.060em;
+}
+.tit_1 {
+	line-height: 100%;
+}
+.tit_2 {
+	padding: 10px 0 5px 19px; 
+	font-size: 18px; 
+	line-height: 100%; 
+	letter-spacing: -0.025em; 
+	color: #333; 
+	position: relative;
+}
+label {
+    vertical-align: top;
+}
+dt, dd, li {
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+}
+.search_service{
+	margin-bottom: 10px;
+    padding: 20px;
+    overflow: hidden;
+    border: 1px solid #e5e5e5;
+}
+.form_elem {
+	position: absolute;
+    left: 0;
+    top: 0;
+    margin-bottom: 0;
+    font-size: 88%;
+    line-height: 145%;
+    color: #383736;
+    letter-spacing: .2px;
+    
+}
+.search_service:first-child {
+	margin-top:0px;
+}
+
+.search_service .label {
+    line-height: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    color: #585858;
+}

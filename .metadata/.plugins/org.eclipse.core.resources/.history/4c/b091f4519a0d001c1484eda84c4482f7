@@ -1,0 +1,366 @@
+@charset "EUC-KR";
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+	blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn,
+	em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+	b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas,
+	details, embed, figure, figcaption, footer, header, hgroup, menu, nav,
+	output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+
+div {
+	display: block;
+}
+
+*, ::after, ::before {
+	box-sizing: inherit;
+}
+
+.container>div {
+	padding: 24px;
+	padding-bottom: 48px;
+}
+
+/* 국내현황 CSS */
+.sub_top .st_title {
+	padding: 12px 0;
+	border-bottom: 2px solid #000;
+}
+
+.sub_top .st_title>div {
+	padding: 8px 0;
+}
+
+sub_top .st_title * {
+	vertical-align: top;
+}
+
+fl_l {
+	float: left;
+}
+
+.sub_top .st_title h3 {
+	display: block;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 40px;
+	letter-spacing: -0.08em;
+	color: #333;
+}
+
+/*국내 발생 현황 CSS */
+.s_title_in2::before {
+	display: inline-block;
+	content: '';
+	width: 9px;
+	height: 16px;
+	margin-left: -20px;
+	margin-right: 7px;
+	background-color: #405985;
+	border-right: 4px solid #47c1d1;
+}
+
+[class^="s_title"] {
+	position: relative;
+	display: block;
+	font-weight: 500;
+	letter-spacing: -0.048em;
+}
+
+.s_title_in2 {
+	padding-left: 20px;
+	font-size: 22px;
+	line-height: 26px;
+	color: #222;
+	margin-top: 24px;
+}
+/* 코로나바이러스감염증-19 국내 발생현황 */
+.s_descript {
+	display: block;
+	font-size: 14px;
+	line-height: 22px;
+	color: #444;
+	padding: 2px 0;
+	margin-top: 8px;
+}
+
+/* 누적확진자 */
+.s_title_in3 {
+	padding-left: 20px;
+	font-size: 18px;
+	line-height: 24px;
+	color: #222;
+	margin-top: 16px;
+}
+
+[class^="s_title"]>.t_date {
+	display: inline-block;
+	margin-left: 4px;
+	font-size: 0.7em;
+}
+
+/*누적확진자테이블CSS  */
+.caseTable {
+	margin-top: 24px;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+.caseTable>div:nth-child(1) {
+	width: 40%;
+}
+
+.caseTable>div {
+	height: 133px;
+	float: left;
+	border-right: 1px solid #c4d0e4;
+	padding-bottom: 1px;
+	border-bottom: 1px solid #6d88b7;
+}
+
+.caseTable .ca_top {
+	height: 30px;
+	line-height: 16px;
+	padding: 5px 3px;
+	font-weight: 600;
+	color: #000;
+	background-color: #f7faff;
+	border-top: 2px solid #6d88b7;
+}
+
+.caseTable>div>* {
+	display: block;
+	width: 100%;
+	font-size: 14px;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+.caseTable .ca_body {
+	height: 100px;
+	border-top: 1px solid #6d88b7;
+	background-color: #fff;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+.caseTable .ca_body>li>dl {
+	display: table;
+	border-right: 1px solid #cad5e8;
+}
+
+.caseTable .ca_body>li>* {
+	width: 100%;
+	font-size: 14px;
+	line-height: 1.25em;
+	text-align: center;
+}
+
+.caseTable .ca_body .ca_subtit {
+	height: 30px;
+	line-height: 30px;
+	font-weight: 600;
+	color: #38507a;
+	background-color: #fdfeff;
+}
+
+.caseTable .ca_body>li>dl>dt {
+	display: table-header-group;
+}
+
+.caseTable>div:nth-child(1) .ca_body>li:nth-child(1) {
+	width: 30%;
+}
+
+.caseTable .ca_body>li {
+	float: left;
+	width: 50%;
+}
+
+.caseTable>div:nth-child(1) .ca_body>li:nth-child(2) {
+	width: 70%;
+}
+
+.caseTable .ca_body>li:last-child>dl {
+	border-right: 0 none;
+}
+
+.caseTable .ca_body .ca_value {
+	height: 70px;
+	font-size: 15px;
+	color: #444;
+	border-top: 1px solid #cad5e8;
+}
+
+.caseTable .ca_body>li>dl>dd {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.caseTable .ca_body .ca_value>ul {
+	width: 100%;
+	height: 100%;
+}
+
+.caseTable>div:nth-child(1) .ca_body>li:nth-child(2) .ca_value>ul>li {
+	width: 33.333333%;
+}
+
+.caseTable .ca_body .ca_value>ul>li:nth-child(1) {
+	width: 40%;
+}
+
+.caseTable>div:nth-child(2) {
+	width: 20%;
+}
+
+.caseTable>div:nth-child(3) {
+	width: 20%;
+}
+
+.caseTable>div:nth-child(4) {
+	width: 20%;
+}
+
+.caseTable .ca_body .ca_value>ul>li {
+	float: left;
+	display: table;
+	vertical-align: middle;
+	border-right: 1px dashed #cad5e8;
+}
+
+.caseTable .ca_body .ca_value .inner_tit {
+	height: 30px;
+	line-height: 30px;
+	display: table-header-group;
+	width: 100%;
+	font-size: 13px;
+	font-weight: 600;
+	color: #1f50a6;
+}
+
+.caseTable .ca_body .ca_value .inner_value {
+	height: 40px;
+	display: table-cell;
+	border-top: 1px dashed #cad5e8;
+	color: #dd0000;
+	vertical-align: middle;
+}
+
+.txt_ntc {
+	color: #dd0000;
+}
+
+.caseTable .ca_body .ca_value .txt_ntc {
+	color: #dd0000;
+}
+/* 누적확진자 CSS end*/
+.data_table {
+	margin-top: 8px;
+}
+
+.mgt16 {
+	margin-top: 16px !important;
+}
+
+.data_table * {
+	vertical-align: middle;
+}
+
+.data_table table {
+	table-layout: fixed;
+	border-collapse: separate;
+	width: 100%;
+	border-top: 1px solid #333;
+	border-left: 1px solid #ddd;
+}
+
+.data_table table th, .data_table table td {
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+	padding: 10px 16px;
+}
+
+.data_table table.num {
+	border-top: 2px solid #6d88b7;
+}
+
+.data_table table.num thead>tr:last-child th {
+	border-bottom: 1px solid #6d88b7;
+}
+
+.data_table table.num thead th {
+	font-size: 14px;
+	line-height: 1.5em;
+	font-weight: 600;
+	letter-spacing: -0.048em;
+	background: #f7faff;
+	border-bottom: 1px solid #ddd;
+}
+
+.data_table table.num .sumline>th, .data_table table.num .sumline>td {
+	color: #222;
+	font-weight: 600;
+	border-bottom: 1px dotted #6d88b7;
+}
+
+.data_table table.num tbody th {
+	background: #fdfeff;
+	font-weight: 600;
+}
+
+.data_table table.num th {
+	color: #405985;
+}
+
+.data_table table tbody th, .data_table table tbody td {
+	font-size: 14px;
+	line-height: 22px;
+	position: relative;
+}
+
+.board_top {
+	font-size: 0;
+	line-height: 0;
+	margin-top: 32px;
+}
+
+.board_top .title_info {
+	display: inline-block;
+	font-size: 14px;
+	color: #666;
+	margin-left: 7px;
+	vertical-align: middle;
+}
+
+.i_descript {
+	display: block;
+	font-size: 12px;
+	line-height: 20px;
+	color: #666;
+	padding: 2px 0;
+	margin-top: 4px;
+}
+
+.mgt8 {
+	margin-top: 8px !important;
+}
+
+.ta_r {
+	text-align: right;
+}
+
+.txt_ntc_bold {
+	font-weight: 600;
+	color: #dd0000;
+}

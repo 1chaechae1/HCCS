@@ -1,0 +1,17 @@
+@charset "EUC-KR";
+
+.service_part .search_service {
+	padding:20px;
+}
+.search_service:first-child {
+	margin-top:0px;
+}
+.search_service{
+	position: relative;
+	padding-left:120px;
+}
+dt, dd, li {
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+}

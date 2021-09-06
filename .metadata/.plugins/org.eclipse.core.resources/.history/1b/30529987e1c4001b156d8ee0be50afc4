@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<form method="POST" action=SCenter2list.jsp>
+	<input type = "checkbox" name="itemcode" id="Clinic_search_itemcode_C1" value="C1">
+		<label for="Clinic_search_itemcode_C1">평일</label>
+	<input type = "checkbox" name="itemcode" id="Clinic_search_itemcode_C2" value="C2">
+		<label for="Clinic_search_itemcode_C2">주말</label>
+	<input type = "checkbox" name="itemcode" id="Clinic_search_itemcode_C3" value="C3">
+		<label for="Clinic_search_itemcode_C3">공휴일</label>
+		
+		
+	<input type = "button" class = "btn grey btn_blue" id = "btnSearch" value="검색">
+	
+	</form>
+</body>
+</html>

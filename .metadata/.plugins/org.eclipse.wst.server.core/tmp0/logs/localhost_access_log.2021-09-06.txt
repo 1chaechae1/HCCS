@@ -1,0 +1,11 @@
+127.0.0.1 - - [06/Sep/2021:23:49:28 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [06/Sep/2021:23:49:28 +0900] "GET /ClinicProject/Success_list/Main.html HTTP/1.1" 200 2716
+0:0:0:0:0:0:0:1 - - [06/Sep/2021:23:49:28 +0900] "GET /ClinicProject/Success_list/main.css HTTP/1.1" 200 3079
+0:0:0:0:0:0:0:1 - - [06/Sep/2021:23:49:29 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [06/Sep/2021:23:49:37 +0900] "GET /ClinicProject/Success_list/SClist.html HTTP/1.1" 200 835
+0:0:0:0:0:0:0:1 - - [06/Sep/2021:23:49:59 +0900] "GET /ClinicProject/Success_list/SCListview.jsp HTTP/1.1" 200 159
+127.0.0.1 - - [06/Sep/2021:23:50:31 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [06/Sep/2021:23:50:32 +0900] "GET /Project1/final/search_main.html HTTP/1.1" 200 2962
+127.0.0.1 - - [06/Sep/2021:23:52:57 +0900] "GET / HTTP/1.1" 404 807
+127.0.0.1 - - [06/Sep/2021:23:53:42 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [06/Sep/2021:23:53:43 +0900] "GET /%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/sctest/main_search.jsp HTTP/1.1" 200 555

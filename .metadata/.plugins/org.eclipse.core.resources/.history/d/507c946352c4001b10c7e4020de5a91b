@@ -1,0 +1,64 @@
+@charset "EUC-KR";
+
+.content_view {
+    padding: 10px 5px;
+    position: relative;
+}
+.content_header h2 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 500;
+    color: #333;
+    letter-spacing: -0.060em;
+}
+.tit_1 {
+	line-height: 100%;
+}
+.tit_2 {
+	padding: 10px 0 5px 19px; 
+	font-size: 18px; 
+	line-height: 100%; 
+	letter-spacing: -0.025em; 
+	color: #333; 
+	position: relative;
+}
+label {
+    vertical-align: top;
+}
+dt, dd, li {
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+}
+.search_service{
+	margin-bottom: 10px;
+    padding: 13px 0;
+    overflow: hidden;
+    border: 1px solid #dee3eb;
+    background: #fff;
+}
+.service_part .search_service {
+	padding:20px;
+}
+.search_service:first-child {
+	margin-top:0px;
+}
+.search_service .form_elem {
+    width: 100%;
+    padding: 10px 30px 10px 30px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+}
+
+.search_service .form_elem dt {
+    position: static;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    /*top: 0;*/
+    left: 0;
+}
