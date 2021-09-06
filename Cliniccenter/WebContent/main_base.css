@@ -1,0 +1,309 @@
+@charset "EUC-KR";
+
+
+.content {
+    float: none;
+    width: auto;
+    padding: 0;
+    position: relative;
+}
+.content_header h2 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 500;
+    color: #333;
+    letter-spacing: -0.060em;
+}
+.content_view {
+    padding: 10px 5px;
+    position: relative;
+}
+
+.tit_1 {
+	line-height: 100%;
+}
+.tit_2 {
+	padding: 10px 0 5px 19px; 
+	font-size: 18px; 
+	line-height: 100%; 
+	letter-spacing: -0.025em; 
+	color: #333; 
+	position: relative;
+}
+
+.board_list table {
+    margin-bottom: 15px;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 0;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+}
+.board_list table thead th {
+    padding: 8px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+}
+.board_list table tbody td {
+	width: 33%;
+    border-right: 1px solid #ccc;
+    background: #fff;
+}
+.board_list table tbody td div {
+	display: block;
+    float: left;
+    width: 140px;
+    background: #fff;
+}
+.board_list table tbody td div select {
+    display: block;
+    width: 450%;
+    background: #fff;
+    height: 100%;
+}
+select {
+    display: inline-block;
+    vertical-align: middle;
+    border: 0 none;
+}
+table, th, td {
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+label {
+    vertical-align: top;
+}
+
+dt, dd, li {
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+a {
+	text-decoration: none;
+}
+
+.search_service {
+	margin-bottom: 10px;
+    padding: 13px 0;
+    overflow: hidden;
+    border: 1px solid #dee3eb;
+    background: #fff;
+}
+.form_elem .datepicker {
+    display: inline-block;
+    position: relative;
+    width: 47%;
+    vertical-align: top;
+}
+.form_elem .datepicker input {
+    height: 32px;
+    margin: 2px 0 3px;
+}
+
+input[type='submit'], input[type='button'] {
+    display: inline-block;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+button {
+	cursor: pointer;
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+	background: none;
+}
+button span {
+    cursor: pointer;
+    vertical-align: top;
+}
+
+.date_select {
+    display: block;
+    position: absolute;
+    width: 25px;
+    height: 35px;
+    top: 3px;
+    right: -22px;
+}
+.date_select span {
+    overflow: hidden;
+    text-indent: -9999em;
+}
+.haze {
+    position: absolute;
+    top: -9999px;
+}
+.form_elem .symbol {
+	width: 5%;
+    text-align: center;
+    display: inline-block;
+    
+    padding-right: 7px;
+}
+.search_service .form_elem {
+    width: 100%;
+    padding: 10px 30px 10px 30px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+}
+
+.search_service .form_elem dt {
+    position: static;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    /*top: 0;*/
+    left: 0;
+}
+
+.search_service .label {
+    line-height: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    color: #585858;
+}
+.search_service .form_elem dt.label label {
+    padding-left: 12px;
+    font-size: 16px;
+}
+.search_service .form_elem dd {
+    padding: 0;
+}
+.search_service .form_elem dd .input_text {
+    display: block;
+    width: 100%;
+}
+.search_service .form_elem input {
+    height: 33px;
+}
+.search_service .form_elem .input_1 .input_text {
+    width: 100%;
+ 
+}
+
+.input_text input {
+    display: inline-block;
+    width: 100%;
+    margin: 2px 0;
+    padding: 3px 10px;
+    line-height: 24px;
+    border: 1px solid #ccc;
+}
+input {
+    vertical-align: top;
+}
+
+input.search_service_btn .btn:first-child {
+    margin-right: 6px;
+}
+
+input.search_service_btn {
+	clear: both;
+	text-align: center;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+input.btn {
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+input.btn {
+    display: inline-block;
+    box-sizing: border-box;
+}
+input.btn_blue, input.btn.btn_blue {
+    background: blue;
+    color: #fff;
+}
+input.btn.grey {
+    height: 43px;
+    padding: 0 29px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 43px;
+}
+
+input.btn_gray, input.btn.btn_gray {
+    border: 0;
+    background: #666;
+    color: #fff;
+}
+input.btn.white_small {
+    height: 43px;
+    padding: 0 29px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 43px;
+}
+
+ul, ol, dl {
+    margin: 0;
+    padding: 0;
+    line-height: 100%;
+    list-style: none;
+}
+
+.tab_wrap ul.tab {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.tab_wrap ul.tab .tab_list {
+	width: 50%;
+    float: left;
+}
+
+.tab_wrap ul.tab .tab_link {
+    display: block;
+    position: relative;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 400;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin: 1px 1px;
+}
+.tab_wrap ul.tab .tab_list.on span {
+    padding: 9px 0 10px;
+}
+.tab_wrap ul.tab .tab_list.on .tab_link {
+    height: 38px !important;
+    border: 2px solid #1f1f1f !important;
+    background: #3e3e65;
+    color: #fff;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
